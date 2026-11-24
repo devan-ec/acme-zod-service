@@ -12,4 +12,4 @@ jobs:
       service-name: acme-zod-service
       kind: express
     secrets:
-      collections-token: ${{ secrets.COLLECTIONS_TOKEN }}
+      COLLECTIONS_TOKEN: ${{ secrets.COLLECTIONS_TOKEN }}
